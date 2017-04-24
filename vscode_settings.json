@@ -1,0 +1,14 @@
+{
+  "files.autoSave": "onFocusChange",
+  "git.autofetch": false,
+  "window.zoomLevel": 1,
+  "window.openFilesInNewWindow": "on",
+  "window.openFoldersInNewWindow": "on",
+  "files.trimTrailingWhitespace": true,
+  "workbench.iconTheme": "vs-seti",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "todohighlight.isEnable": true,
+  "todohighlight.exclude": "{**/node_modules/**,**/bower_components/**,**/dist/**,**/build/**,**/.vscode/**,**/_output/**,**/*.min.*,**/*.map,**/vendor/**/*}",
+  "todohighlight.keywords": ["TODO"]
+}
