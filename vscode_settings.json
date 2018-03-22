@@ -1,14 +1,26 @@
 {
+  "editor.minimap.enabled": false,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
   "files.autoSave": "onFocusChange",
   "git.autofetch": false,
   "window.zoomLevel": 1,
   "window.openFilesInNewWindow": "on",
   "window.openFoldersInNewWindow": "on",
   "files.trimTrailingWhitespace": true,
-  "workbench.iconTheme": "vs-seti",
+  "workbench.iconTheme": "vscode-icons",
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 120,
+  "prettier.singleQuote": true,
+  "editor.formatOnType": true,
   "todohighlight.isEnable": true,
   "todohighlight.exclude": "{**/node_modules/**,**/bower_components/**,**/dist/**,**/build/**,**/.vscode/**,**/_output/**,**/*.min.*,**/*.map,**/vendor/**/*}",
-  "todohighlight.keywords": ["TODO"]
+  "todohighlight.keywords": ["TODO"],
+  "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/.history": true,
+  },
 }
