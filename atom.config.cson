@@ -1,0 +1,29 @@
+"*":
+  core:
+    disabledPackages: [
+      "editorconfig"
+      "busy-signal"
+      "linter-ui-default"
+      "linter"
+      "intentions"
+      "import-it"
+      "node-import-resolver"
+      "spell-check"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "\"JetBrains Mono\", Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 11
+  "exception-reporting":
+    userId: "51828617-3460-4034-a7ce-827abe164628"
+  "markdown-preview":
+    useGitHubStyle: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+  "spell-check":
+    locales: [
+      "en_US"
+    ]
+  welcome:
+    showOnStartup: false
